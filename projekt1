@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="main.css">
+      <meta name="description" content="Strona ">
+      <meta name="keywords" content="cv, damian, czapski, projekt, programowanie, internetowe">
+      <meta name="author" content="&copy;2016 Damian Czapski">
+      <meta name="copyright" content="(c) 2016 czapskid">
+      <meta name="reply-to"  content="czapskid@ee.pw.edu.pl">
+      <title>Damian Czapski - Programowanie Internetowe</title>
+   </head>
+
+<body>
+      <div id = "caly_blok">
+      <div id = "naglowek">
+            Programowanie Internetowe<br>
+            Projekt nr. 1 </div>
+      <div id = "spis_tresci">
+            <ul>         
+              <li><a href="index.html">Strona główna</a></li>     
+              <li><a href="o_mnie.html">O mnie</a></li>               
+              <li><a href="projekt1.html">Projekt 1</a>
+                <ul>
+                <li><a href="projekt1/htmldiv.html">HTML (DIV)</a></li>
+                <li><a href="projekt1/htmltable.html">HTML (TABLE)</a></li>
+                <li><a href="projekt1/xhtmldiv.xhtml">XHTML (DIV)</a></li>
+                <li><a href="projekt1/xhtmltable.xhtml">XHTML (TABLE)</a></li>
+                </ul>
+              </li>
+              <li>Projekt 2</li>
+              <li>Projekt 3</li>
+              <li>Projekt 4</li>                     
+              <li>Projekt 5</li>
+              <li><a href = "view-source:http://iem.pw.edu.pl/~czapskid/projekt1.html">Źródło strony</a></li>
+            </ul>
+      </div>
+
+      <div id = "tresc">     
+      <h1>Projekt 1</h1>
+          
+      <p>Projekt polega na stworzeniu swojej witryny internetowej (zestawu kilku stron), która będzie posiadała wyselekcjonowane miejsce na linki do poszczególnych ćwiczeń z Programowania Internetowego oraz stronę ze swoim CV w językach HTML5 oraz XHTML.<br><br>
+          - należy stworzyć stronę ze swoim CV.<br>
+          - do pozycjonowania elementów na stronie należy wykorzystać model oparty na elementach DIV oraz w drugim wariancie na tabelach (również zagnieżdżonych). <br>
+          - w sprawozdaniu porównać nakład pracy i objętość kodu potrzebnych do stworzenia podobnie wyglądającego serwisu. - porównać nakład pracy potrzebny do wprowadzenia drobnych poprawek np. zmiana kolejności, rozmiaru menu, itp.<br>
+          - podsumowując: należy napisać 4 wersje strony (table, DIV) x (HTML, XHTML).<br>
+          - utworzyć plik .htaccess do katalogu z CV umożliwiający wejście wyłącznie z hasłem (login i hasło wypisywane jest w message box'ie).<br><br>
+
+        <!-- Tabelka z odnośnikami do typow stron-->
+         <table id = "projekt1">
+          <tr>
+            <td><form action="projekt1/htmldiv.html">
+               <input type="submit" value="HTML (DIV)" id="przycProj">
+            </form></td>
+            <td><form action="projekt1/htmltable.html">
+               <input type="submit" value="HTML (TABLE)" id="przycProj">
+            </form></td>
+          </tr>
+
+          <tr>
+            <td><form action="projekt1/xhtmldiv.xhtml">
+               <input type="submit" value="XHTML (DIV)" id="przycProj">
+            </form></td>
+            <td><form action="projekt1/xhtmltable.xhtml">
+               <input type="submit" value="XHTML (TABLE)" id="przycProj">
+            </form></td>
+          </tr>
+         </table><br>
+      </div>
+
+          <div id = "stopka">
+             Autorem strony jest Damian Czapski.        
+         </div>
+
+      </div>
+  </body>
+</html>
