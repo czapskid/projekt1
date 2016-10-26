@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="main.css">
+      <meta name="description" content="Strona ">
+      <meta name="keywords" content="cv, damian, czapski, projekt, programowanie, internetowe">
+      <meta name="author" content="&copy;2016 Damian Czapski">
+      <meta name="copyright" content="(c) 2016 czapskid">
+      <meta name="reply-to"  content="czapskid@ee.pw.edu.pl">
+      <title>Damian Czapski - Programowanie Internetowe</title>
+   </head>
+   <body>
+   	<div id = "caly_blok">
+         <div id = "naglowek">
+            Programowanie Internetowe<br>
+         </div>
+        <div id = "spis_tresci"><ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="o_mnie.html">O mnie</a></li>
+                     <li><a href="projekt1.html">Projekt 1</a></li>
+                     <li>Projekt 2</li>
+                     <li>Projekt 3</li>
+                     <li>Projekt 4</li>
+                     <li>Projekt 5</li>
+                     <li><a href = "view-source:http://iem.pw.edu.pl/~czapskid/o_mnie.html">Źródło strony</a></li>
+         </ul>
+        </div>
+
+         <div id = "tresc">
+            <h1>O mnie</h1>
+            <p id = "dane">
+            <b>Dane kontaktowe:</b><br>
+            Damian Czapski<br>
+            Email: <a href="mailto:czapskid@ee.pw.edu.pl">czapskid@ee.pw.edu.pl</a>
+            </p>
+         <p>Mam na imię Damian. <br> <br> Jestem studentem 2 roku Informatyki na Wydziale Elektrycznym Politechniki Warszawskiej.<br></p>
+         <p>Moją największą pasją jest sport. Najbardziej lubię grać w <b>siatkówkę</b>, <b>tenis</b> oraz <b>piłkę nożną</b>.<br></p>
+         <p>Moją ulubioną drużyną jest Real Madryt. Aktualnie zajmują oni pierwsze miejsce w lidze hiszpańskiej.<br></p>
+         <h3>Tabela Primera Division</h3>
+         <!-- Ramka pływająca-->
+         <iframe id = "iframe_omnie" src = "http://www.flashscore.pl/pilka-nozna/hiszpania/laliga/tabela/">
+            Twoja przeglądarka nie obsługuje ramek pływających!
+         </iframe>
+         </div>
+
+         <div id = "stopka">
+            Autorem strony jest Damian Czapski.
+         </div>
+         
+      </div>
+   </body>
+</html>
