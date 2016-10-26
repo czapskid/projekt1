@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+   PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+   <head>
+      <title> Damian Czapski - Programowanie Internetowe </title>
+      <link rel="stylesheet" 	href="../main.css"/>
+      <meta name="description" 	content="Strona przygotowana na zajęcia z Programowania Internetowego"/>
+      <meta name="keywords" 	content="cv, damian, czapski, projekt, programowanie, internetowe"/>
+      <meta name="author" 		content="&copy; 2016 Damian Czapski"/>
+      <meta name="copyright" 	content="(c) 2016 czapskid"/>
+      <meta name="reply-to"  	content="czapskid@ee.pw.edu.pl"/>
+   </head>
+   <body>
+   <div id = "caly_blok">
+         <div id = "naglowek">
+             Programowanie Internetowe<br/>
+            XHTML (div)
+         </div>
+      <div id = "spis_tresci">
+         <ul>
+            <li><a href="../index.html">Strona główna</a></li>
+            <li><a href="../o_mnie.html">O mnie</a></li>
+           			<li><a href="../projekt1.html">Projekt 1</a>
+            			<ul>
+               			<li><a href="htmldiv.html">HTML (DIV)</a></li>
+               			<li><a href="htmltable.html">HTML (TABLE)</a></li>
+               			<li><a href="xhtmldiv.xhtml">XHTML (DIV)</a></li>
+               			<li><a href="xhtmltable.xhtml">XHTML (TABLE)</a></li>
+            			</ul>
+            		</li>
+            <li>Projekt 2</li>
+            <li>Projekt 3</li>
+            <li>Projekt 4</li>
+            <li>Projekt 5</li>
+            <li><a href = "view-source:http://iem.pw.edu.pl/~czapskid/xhtmldiv.html">Źródło strony</a></li>
+         </ul>
+      </div>
+
+         <div id = "tresc"> 
+            <img  id = "cv_foto" src="../pliki/CV.jpg" alt="Zdjęcie"/>
+
+            <h2>Curriculum Vitae</h2><br/>
+            Imię: Damian<br/>
+            Nazwisko: Czapski<br/>
+            Data urodzenia: 4 grudnia 1995 roku<br/>
+            Adres: 08-109 Przesmyki, ul. Narutowicza 8<br/>
+            Telefon: 690546321<br/>
+            Email: <a href="mailto:czapskid@ee.pw.edu.pl">czapskid@ee.pw.edu.pl</a><br/><br/>
+
+            Wykształcenie:<br/>
+            2008 - 2011: Publiczne Gimnazjum w Przesmykach<br/>
+            2011 - 2014: I Liceum Ogólnokształcące im. Bolesława Prusa w Siedlcach z rozszerzeniem mat-inf-fiz<br/>
+	         2014 - 2015: Politechnika Warszawska, Wydział Fizyki, kierunek Fizyka Techniczna<br/>           
+            2015 - aktualnie: Politechnika Warszawa, Wydział Elektryczny,kierunek Informatyka<br/><br/>
+
+            Języki obce:<br/>
+            Język angielski - średnio zaawansowany, poziom B2<br/>
+            Język rosyjski - podstawowy, poziom B1<br/><br/>
+	        Język niemiecki - podstawowy, poziom B1<br/><br/>
+
+            Umiejętności:<br/>
+            Znajomość języków programowania w stopniu zaawansowanym: C, Java<br/>
+            Znajomość języków programowania w stopniu podstawowym: C, C#, HTML, CSS<br/>
+            Obsługa pakietu Microsoft Office (Word, Excel, Access, PowerPoint)<br/>
+            Znajomość systemów operacyjnych Windows oraz Linux<br/>
+            Obsługa programów takich jak Paint, GIMP,Adobe Photoshop, AutoCAD, <br/>
+            Prawo jazdy kategorii B<br/>
+         </div>
+
+         	<div id = "stopka">
+         	 Autorem strony jest Damian Czapski.
+         	</div>
+
+         <div>
+            <p>
+             <a href="http://validator.w3.org/check?uri=referer"><img
+             src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+            </p>
+         </div>
+    </div>
+   </body>
+</html>
